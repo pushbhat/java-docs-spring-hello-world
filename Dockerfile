@@ -1,5 +1,5 @@
 # Build a JAR file
-From maven:3.2.2-jdk-8-slim AS stage1
+From maven:3.8.2-jdk-8-slim AS stage1
 WORKDIR /home/app
 COPY . /home/app/
 RUN mvn -f /home/app/pom.xml clean package
