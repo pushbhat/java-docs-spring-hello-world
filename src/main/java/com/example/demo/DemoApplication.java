@@ -1,20 +1,27 @@
 package com.example.demo;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-@SpringBootApplication
-@RestController
+import java.util.Scanner;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		 Scanner in=new Scanner(System.in);
+        int num;
+        System.out.println("helo world");
 	}
 
-	@RequestMapping("/")
-	String sayHello() {
-		return "Hello Azure!";
-	}
+	// @RequestMapping("/")
+	// String sayHello() {
+	// 	return "Hello Azure!";
+	// }
 }
+
+// package lab1;
+
+// import java.util.Scanner;
+// public class q1 {
+//     public static void main(String args[]){
+//         Scanner in=new Scanner(System.in);
+//         int num;
+//         System.out.println("helo world");
+//     }
+// }
